@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back to the Future — My Favorite Actors & Actresses</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        darkbg: '#0f172a',
+                        cardbg: '#1e293b',
+                        accent: '#f59e0b'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col font-sans selection:bg-amber-500 selection:text-slate-950">
+    <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            <div>
+                <a href="./index.html" class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+                    🎬 <span class="bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent">My Favorite Actors & Actresses</span>
+                </a>
+                <p class="text-xs text-slate-400 mt-0.5">A Personal Archive by artistso (Hyperthymesia-Backed Recall)</p>
+            </div>
+            <nav class="flex items-center gap-4 text-sm font-medium">
+                <a href="./index.html" class="text-slate-300 hover:text-amber-400 transition">Home</a>
+                <a href="./wagons-east/index.html" class="text-slate-300 hover:text-amber-400 transition">Wagons East</a>
+                <a href="./personal-favorites/index.html" class="text-slate-300 hover:text-amber-400 transition">Favorites</a>
+                <a href="./about-the-author/index.html" class="text-slate-300 hover:text-amber-400 transition">About Author</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow max-w-5xl mx-auto px-6 py-10 w-full">
+        <!-- Breadcrumbs -->
+        <nav class="text-sm mb-8 bg-slate-900/60 border border-slate-800 rounded-lg px-4 py-3 shadow-sm flex items-center">
+            <span class="text-slate-400 mr-2 font-medium">📍 Breadcrumbs:</span>
+            <a href="../index.html" class="text-amber-400 hover:underline">Home</a> <span class="text-zinc-500 mx-2">/</span> <span class="text-zinc-300">Back to the Future</span>
+        </nav>
+
+        <div class="space-y-8">
+            <div>
+                <h1 class="text-3xl font-extrabold text-white tracking-tight mb-2">⏱️ Back to the Future Archive</h1>
+                <p class="text-slate-400">Profiles for Michael J. Fox and Christopher Lloyd.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 gap-6">
+                <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-4">
+                    <h2 class="text-xl font-bold text-amber-400">Michael J. Fox</h2>
+                    <p class="text-sm text-slate-300">Primary Works: *Back to the Future*, *Teen Wolf*, *The Hard Way*.</p>
+                </div>
+
+                <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-4">
+                    <h2 class="text-xl font-bold text-amber-400">Christopher Lloyd</h2>
+                    <p class="text-sm text-slate-300">Primary Works: *Back to the Future*, *Taxi*, *The Addams Family*.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="border-t border-slate-800 bg-slate-900/40 py-8 mt-16 text-center text-xs text-slate-500">
+        <p>My Favorite Actors & Actresses • Serverless Archive hosted on GitHub Pages & Netlify</p>
+        <p class="mt-1">Backed by total 360-degree hyperthymesia sensory recall.</p>
+    </footer>
+</body>
+</html>

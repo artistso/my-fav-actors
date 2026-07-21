@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Favorites — My Favorite Actors & Actresses</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        darkbg: '#0f172a',
+                        cardbg: '#1e293b',
+                        accent: '#f59e0b'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col font-sans selection:bg-amber-500 selection:text-slate-950">
+    <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            <div>
+                <a href="./index.html" class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+                    🎬 <span class="bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent">My Favorite Actors & Actresses</span>
+                </a>
+                <p class="text-xs text-slate-400 mt-0.5">A Personal Archive by artistso (Hyperthymesia-Backed Recall)</p>
+            </div>
+            <nav class="flex items-center gap-4 text-sm font-medium">
+                <a href="./index.html" class="text-slate-300 hover:text-amber-400 transition">Home</a>
+                <a href="./wagons-east/index.html" class="text-slate-300 hover:text-amber-400 transition">Wagons East</a>
+                <a href="./personal-favorites/index.html" class="text-slate-300 hover:text-amber-400 transition">Favorites</a>
+                <a href="./about-the-author/index.html" class="text-slate-300 hover:text-amber-400 transition">About Author</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow max-w-5xl mx-auto px-6 py-10 w-full">
+        <!-- Breadcrumbs -->
+        <nav class="text-sm mb-8 bg-slate-900/60 border border-slate-800 rounded-lg px-4 py-3 shadow-sm flex items-center">
+            <span class="text-slate-400 mr-2 font-medium">📍 Breadcrumbs:</span>
+            <a href="../index.html" class="text-amber-400 hover:underline">Home</a> <span class="text-zinc-500 mx-2">/</span> <span class="text-zinc-300">Personal Favorites</span>
+        </nav>
+
+        <div class="space-y-8">
+            <div>
+                <h1 class="text-3xl font-extrabold text-white tracking-tight mb-2">⭐ Personal Favorites & Actresses</h1>
+                <p class="text-slate-400">Actors and actresses across all genres whose work left an indelible mark.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 gap-6">
+                <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-4">
+                    <h2 class="text-xl font-bold text-amber-400">Hilary Swank</h2>
+                    <blockquote class="text-sm text-slate-300 italic border-l-2 border-amber-500 pl-4 py-1">
+                        "Part of my life was growing up in Grays Harbor, Aberdeen, Washington, and Hoquiam, Washington. My grandfather owned 2000 Broadway Villa in Woodlawn out there, and a couple of trailers down was an individual named Jennifer Patton..."
+                    </blockquote>
+                    <a href="./hilary-swank.md" class="inline-block text-xs font-semibold text-amber-400 hover:underline">View Markdown Source →</a>
+                </div>
+
+                <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-4">
+                    <h2 class="text-xl font-bold text-amber-400">Robin Williams</h2>
+                    <p class="text-sm text-slate-300">Legendary comedic and dramatic performances (*Aladdin*, *Good Will Hunting*, stand-up).</p>
+                </div>
+
+                <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-4">
+                    <h2 class="text-xl font-bold text-amber-400">Christopher Walken</h2>
+                    <p class="text-sm text-slate-300">Iconic supporting and lead roles (*The Prophecy*, *Suicide Kings*, Saturday Night Live cowbell).</p>
+                </div>
+
+                <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-4">
+                    <h2 class="text-xl font-bold text-amber-400">Seann William Scott</h2>
+                    <p class="text-sm text-slate-300">Comedy staple (*American Pie*, *Goon*, *The Rundown*).</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="border-t border-slate-800 bg-slate-900/40 py-8 mt-16 text-center text-xs text-slate-500">
+        <p>My Favorite Actors & Actresses • Serverless Archive hosted on GitHub Pages & Netlify</p>
+        <p class="mt-1">Backed by total 360-degree hyperthymesia sensory recall.</p>
+    </footer>
+</body>
+</html>

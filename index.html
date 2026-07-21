@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home — My Favorite Actors & Actresses</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        darkbg: '#0f172a',
+                        cardbg: '#1e293b',
+                        accent: '#f59e0b'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col font-sans selection:bg-amber-500 selection:text-slate-950">
+    <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            <div>
+                <a href="./index.html" class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+                    🎬 <span class="bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent">My Favorite Actors & Actresses</span>
+                </a>
+                <p class="text-xs text-slate-400 mt-0.5">A Personal Archive by artistso (Hyperthymesia-Backed Recall)</p>
+            </div>
+            <nav class="flex items-center gap-4 text-sm font-medium">
+                <a href="./index.html" class="text-slate-300 hover:text-amber-400 transition">Home</a>
+                <a href="./wagons-east/index.html" class="text-slate-300 hover:text-amber-400 transition">Wagons East</a>
+                <a href="./personal-favorites/index.html" class="text-slate-300 hover:text-amber-400 transition">Favorites</a>
+                <a href="./about-the-author/index.html" class="text-slate-300 hover:text-amber-400 transition">About Author</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow max-w-5xl mx-auto px-6 py-10 w-full">
+        <!-- Breadcrumbs -->
+        <nav class="text-sm mb-8 bg-slate-900/60 border border-slate-800 rounded-lg px-4 py-3 shadow-sm flex items-center">
+            <span class="text-slate-400 mr-2 font-medium">📍 Breadcrumbs:</span>
+            <span class="text-zinc-300">Home</span>
+        </nav>
+
+        <div class="space-y-10">
+            <!-- Hero -->
+            <div class="bg-gradient-to-br from-slate-900 to-slate-900/80 border border-slate-800 rounded-2xl p-8 shadow-xl">
+                <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-4">
+                    A Lifelong Personal Archive of Cinema & Performance
+                </h1>
+                <p class="text-slate-300 text-lg leading-relaxed mb-6">
+                    Welcome to my curated archive of favorite actors and actresses. Every entry, memory, and personal statement in this repository is backed by a rare form of <strong>hyperthymesia</strong>—providing total, 360-degree sensory recall equivalent to a DVR from age 3 onward.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="./wagons-east/index.html" class="bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold px-5 py-2.5 rounded-xl transition shadow-lg shadow-amber-500/20">
+                        Explore Wagons East Cast 🤠
+                    </a>
+                    <a href="./about-the-author/index.html" class="bg-slate-800 hover:bg-slate-700 text-white font-semibold px-5 py-2.5 rounded-xl transition border border-slate-700">
+                        About Hyperthymesia Recall 🧠
+                    </a>
+                </div>
+            </div>
+
+            <!-- Categories Grid -->
+            <div>
+                <h2 class="text-2xl font-bold text-white mb-6 flex items-center gap-2">
+                    📁 Repository Sections
+                </h2>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <a href="./wagons-east/index.html" class="bg-slate-900 border border-slate-800 hover:border-amber-500/50 rounded-xl p-6 transition group block">
+                        <div class="text-3xl mb-3">🤠</div>
+                        <h3 class="text-lg font-bold text-white group-hover:text-amber-400 transition mb-2">Wagons East (1994)</h3>
+                        <p class="text-sm text-slate-400">Cast profiles, deep-dive personal statements, and retrospective memories for the classic western comedy.</p>
+                    </a>
+
+                    <a href="./back-to-the-future/index.html" class="bg-slate-900 border border-slate-800 hover:border-amber-500/50 rounded-xl p-6 transition group block">
+                        <div class="text-3xl mb-3">⏱️</div>
+                        <h3 class="text-lg font-bold text-white group-hover:text-amber-400 transition mb-2">Back to the Future</h3>
+                        <p class="text-sm text-slate-400">Profiles for Michael J. Fox and Christopher Lloyd.</p>
+                    </a>
+
+                    <a href="./personal-favorites/index.html" class="bg-slate-900 border border-slate-800 hover:border-amber-500/50 rounded-xl p-6 transition group block">
+                        <div class="text-3xl mb-3">⭐</div>
+                        <h3 class="text-lg font-bold text-white group-hover:text-amber-400 transition mb-2">Personal Favorites</h3>
+                        <p class="text-sm text-slate-400">Actors and actresses across all genres, including Robin Williams, Hilary Swank, and more.</p>
+                    </a>
+
+                    <a href="./about-the-author/index.html" class="bg-slate-900 border border-slate-800 hover:border-amber-500/50 rounded-xl p-6 transition group block">
+                        <div class="text-3xl mb-3">🧠</div>
+                        <h3 class="text-lg font-bold text-white group-hover:text-amber-400 transition mb-2">About the Author</h3>
+                        <p class="text-sm text-slate-400">Detailed context on hyperthymesia, 360-degree sensory fidelity, and memory framework.</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Full Roster Table -->
+            <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-lg">
+                <h2 class="text-xl font-bold text-white mb-4">Current Roster Summary</h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left text-sm text-slate-300">
+                        <thead class="border-b border-slate-800 text-slate-400 uppercase text-xs">
+                            <tr>
+                                <th class="pb-3 px-4">#</th>
+                                <th class="pb-3 px-4">Actor / Actress</th>
+                                <th class="pb-3 px-4">Primary Works / Connection</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-800/60">
+                            <tr><td class="py-3 px-4 font-mono text-amber-400">1</td><td class="py-3 px-4 font-semibold text-white">John C. McGinley</td><td class="py-3 px-4 text-slate-400">Wagons East, Scrubs, Platoon</td></tr>
+                            <tr><td class="py-3 px-4 font-mono text-amber-400">2</td><td class="py-3 px-4 font-semibold text-white">John Candy</td><td class="py-3 px-4 text-slate-400">Wagons East, Uncle Buck, Planes Trains</td></tr>
+                            <tr><td class="py-3 px-4 font-mono text-amber-400">3</td><td class="py-3 px-4 font-semibold text-white">Richard Lewis</td><td class="py-3 px-4 text-slate-400">Wagons East, Curb Your Enthusiasm</td></tr>
+                            <tr><td class="py-3 px-4 font-mono text-amber-400">4</td><td class="py-3 px-4 font-semibold text-white">Robert Picardo</td><td class="py-3 px-4 text-slate-400">Wagons East, Star Trek Voyager</td></tr>
+                            <tr><td class="py-3 px-4 font-mono text-amber-400">5</td><td class="py-3 px-4 font-semibold text-white">Ellen Greene</td><td class="py-3 px-4 text-slate-400">Wagons East, Little Shop of Horrors</td></tr>
+                            <tr><td class="py-3 px-4 font-mono text-amber-400">6</td><td class="py-3 px-4 font-semibold text-white">Lochlyn Munro</td><td class="py-3 px-4 text-slate-400">Wagons East, Night at the Roxbury</td></tr>
+                            <tr><td class="py-3 px-4 font-mono text-amber-400">7</td><td class="py-3 px-4 font-semibold text-white">Charles Rocket</td><td class="py-3 px-4 text-slate-400">Wagons East, Dumb and Dumber</td></tr>
+                            <tr><td class="py-3 px-4 font-mono text-amber-400">8</td><td class="py-3 px-4 font-semibold text-white">Michael J. Fox</td><td class="py-3 px-4 text-slate-400">Back to the Future, Teen Wolf</td></tr>
+                            <tr><td class="py-3 px-4 font-mono text-amber-400">9</td><td class="py-3 px-4 font-semibold text-white">Christopher Lloyd</td><td class="py-3 px-4 text-slate-400">Back to the Future, Taxi</td></tr>
+                            <tr><td class="py-3 px-4 font-mono text-amber-400">10</td><td class="py-3 px-4 font-semibold text-white">Robin Williams</td><td class="py-3 px-4 text-slate-400">Aladdin, Good Will Hunting, Stand-Up</td></tr>
+                            <tr><td class="py-3 px-4 font-mono text-amber-400">11</td><td class="py-3 px-4 font-semibold text-white">Hilary Swank</td><td class="py-3 px-4 text-slate-400">Million Dollar Baby, Aberdeen WA memory</td></tr>
+                            <tr><td class="py-3 px-4 font-mono text-amber-400">12</td><td class="py-3 px-4 font-semibold text-white">Kristy Swanson</td><td class="py-3 px-4 text-slate-400">Buffy, Dude Where's My Car</td></tr>
+                            <tr><td class="py-3 px-4 font-mono text-amber-400">13</td><td class="py-3 px-4 font-semibold text-white">Ashton Kutcher</td><td class="py-3 px-4 text-slate-400">That 70s Show, Dude Where's My Car</td></tr>
+                            <tr><td class="py-3 px-4 font-mono text-amber-400">14</td><td class="py-3 px-4 font-semibold text-white">Seann William Scott</td><td class="py-3 px-4 text-slate-400">American Pie, Goon</td></tr>
+                            <tr><td class="py-3 px-4 font-mono text-amber-400">15</td><td class="py-3 px-4 font-semibold text-white">Christopher Walken</td><td class="py-3 px-4 text-slate-400">Prophecy, Suicide Kings, Cowbell</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="border-t border-slate-800 bg-slate-900/40 py-8 mt-16 text-center text-xs text-slate-500">
+        <p>My Favorite Actors & Actresses • Serverless Archive hosted on GitHub Pages & Netlify</p>
+        <p class="mt-1">Backed by total 360-degree hyperthymesia sensory recall.</p>
+    </footer>
+</body>
+</html>
