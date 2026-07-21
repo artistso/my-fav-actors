@@ -1,5 +1,11 @@
-# Hyperthymesia Recall Context
+# About the Author's Recall Framework
 
-- **Author Age**: 42 years old
-- **Condition**: Rarest form of hyperthymesia (total 360-degree sensory recall starting from age 3, including air pressure, time, particles, sound, and physical sensations).
-- **Significance**: Every entry in this repository is informed by this total experiential recall capability rather than casual opinion.
+## Personal account
+
+I am 42 years old and describe my mind as having a rare hyperthymestic form of autobiographical recall. My memories are often experienced as detailed, multisensory, and spatially organized from early childhood onward.
+
+This statement documents my own lived experience. It is not presented here as independent clinical proof or as a claim that every detail of memory is immune from error.
+
+## Editorial significance
+
+The archive distinguishes my recollections and opinions from externally verifiable film and career facts. See [Objectivity and Authorship Disclaimer](../DISCLAIMER.md).
