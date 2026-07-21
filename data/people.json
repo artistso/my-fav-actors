@@ -1,0 +1,126 @@
+[
+  {
+    "id": "john-c-mcginley",
+    "name": "John C. McGinley",
+    "section": "wagons-east",
+    "profile": "wagons-east/john-c-mcginley.md",
+    "notable_works": ["Wagons East", "Scrubs", "Platoon"],
+    "summary": "Dry, precise comic timing and a memorable turn as Julian in Wagons East.",
+    "personal_excerpt": "His sophisticated bookseller persona and unexpected skill as a shooter make Julian one of the film's strongest reversals."
+  },
+  {
+    "id": "john-candy",
+    "name": "John Candy",
+    "section": "wagons-east",
+    "profile": "wagons-east/john-candy.md",
+    "notable_works": ["Wagons East", "Uncle Buck", "Planes, Trains and Automobiles"],
+    "summary": "A uniquely warm comic performer whose work stands independently from later physical comedians.",
+    "personal_excerpt": "I first became aware of him through Uncle Buck and Planes, Trains and Automobiles, then followed his earlier work."
+  },
+  {
+    "id": "richard-lewis",
+    "name": "Richard Lewis",
+    "section": "wagons-east",
+    "profile": "wagons-east/richard-lewis.md",
+    "notable_works": ["Wagons East", "Curb Your Enthusiasm"],
+    "summary": "Deadpan anxiety, compressed storytelling, and unmistakable stand-up cadence.",
+    "personal_excerpt": "His battlefield-surgeon routine in Wagons East is so deadpan and unmistakably Richard Lewis."
+  },
+  {
+    "id": "robert-picardo",
+    "name": "Robert Picardo",
+    "section": "wagons-east",
+    "profile": "wagons-east/robert-picardo.md",
+    "notable_works": ["Wagons East", "Star Trek: Voyager"],
+    "summary": "A versatile character actor who moves easily between science fiction, comedy, and drama."
+  },
+  {
+    "id": "ellen-greene",
+    "name": "Ellen Greene",
+    "section": "wagons-east",
+    "profile": "wagons-east/ellen-greene.md",
+    "notable_works": ["Wagons East", "Little Shop of Horrors"],
+    "summary": "A distinct voice and theatrical presence with exceptional comic timing."
+  },
+  {
+    "id": "lochlyn-munro",
+    "name": "Lochlyn Munro",
+    "section": "wagons-east",
+    "profile": "wagons-east/lochlyn-munro.md",
+    "notable_works": ["Wagons East", "A Night at the Roxbury", "Scary Movie"],
+    "summary": "Especially effective at playing earnest, clueless, and likable characters."
+  },
+  {
+    "id": "charles-rocket",
+    "name": "Charles Rocket",
+    "section": "wagons-east",
+    "profile": "wagons-east/charles-rocket.md",
+    "notable_works": ["Wagons East", "Dumb and Dumber", "Saturday Night Live"],
+    "summary": "A sharp comic presence with a broad range of supporting roles."
+  },
+  {
+    "id": "michael-j-fox",
+    "name": "Michael J. Fox",
+    "section": "back-to-the-future",
+    "profile": "back-to-the-future/michael-j-fox.md",
+    "notable_works": ["Back to the Future", "Teen Wolf", "The Hard Way"],
+    "summary": "Fast, expressive screen timing and a defining science-fiction comedy performance."
+  },
+  {
+    "id": "christopher-lloyd",
+    "name": "Christopher Lloyd",
+    "section": "back-to-the-future",
+    "profile": "back-to-the-future/christopher-lloyd.md",
+    "notable_works": ["Back to the Future", "Taxi", "The Addams Family"],
+    "summary": "A singular physical and vocal performer across comedy and genre film."
+  },
+  {
+    "id": "robin-williams",
+    "name": "Robin Williams",
+    "section": "personal-favorites",
+    "profile": "personal-favorites/robin-williams.md",
+    "notable_works": ["Aladdin", "Good Will Hunting", "Stand-up comedy"],
+    "summary": "Extraordinary improvisational speed with major dramatic range."
+  },
+  {
+    "id": "hilary-swank",
+    "name": "Hilary Swank",
+    "section": "personal-favorites",
+    "profile": "personal-favorites/hilary-swank.md",
+    "notable_works": ["The Next Karate Kid", "Boys Don't Cry", "Million Dollar Baby"],
+    "summary": "A performer associated with an early Grays Harbor memory and admired ever since.",
+    "personal_excerpt": "While growing up in the Grays Harbor area, someone my family knew said she was related to Hilary Swank and shared family photographs. That unexpected connection led us to watch Swank's work, which I have enjoyed ever since."
+  },
+  {
+    "id": "kristy-swanson",
+    "name": "Kristy Swanson",
+    "section": "personal-favorites",
+    "profile": "personal-favorites/kristy-swanson.md",
+    "notable_works": ["Buffy the Vampire Slayer", "Dude, Where's My Car?"],
+    "summary": "A memorable presence in comedy and genre film."
+  },
+  {
+    "id": "ashton-kutcher",
+    "name": "Ashton Kutcher",
+    "section": "personal-favorites",
+    "profile": "personal-favorites/ashton-kutcher.md",
+    "notable_works": ["That '70s Show", "Dude, Where's My Car?"],
+    "summary": "A recognizable comic performer across television and film."
+  },
+  {
+    "id": "seann-william-scott",
+    "name": "Seann William Scott",
+    "section": "personal-favorites",
+    "profile": "personal-favorites/seann-william-scott.md",
+    "notable_works": ["American Pie", "Goon", "The Rundown"],
+    "summary": "A durable comic performer with strong physical timing."
+  },
+  {
+    "id": "christopher-walken",
+    "name": "Christopher Walken",
+    "section": "personal-favorites",
+    "profile": "personal-favorites/christopher-walken.md",
+    "notable_works": ["The Prophecy", "Suicide Kings", "Saturday Night Live"],
+    "summary": "An unmistakable voice, rhythm, and screen presence."
+  }
+]
