@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A personal archive of favorite actors, actresses, and films.">
+  <title>Home - My Favorite Actors, Actresses &amp; Films</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={darkMode:'class',theme:{extend:{colors:{darkbg:'#0f172a',cardbg:'#1e293b',accent:'#f59e0b'}}}}</script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col font-sans selection:bg-amber-500 selection:text-slate-950">
+  <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:m-3 focus:rounded-lg focus:bg-amber-400 focus:px-4 focus:py-2 focus:text-slate-950">Skip to content</a>
+  <header class="border-b border-slate-800 bg-slate-900/90 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+      <div><a href="./index.html" class="text-xl font-bold tracking-tight text-white">🎬 <span class="text-amber-400">My Favorite Actors, Actresses &amp; Films</span></a><p class="text-xs text-slate-400 mt-1">A classified archive of facts, personal accounts, and opinions</p></div>
+      <nav aria-label="Primary" class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm font-medium">
+        <a href="./index.html" class="text-amber-400">Home</a>
+        <a href="./favorite-films/index.html" class="text-slate-300 hover:text-amber-400 transition">Films</a>
+        <a href="./wagons-east/index.html" class="text-slate-300 hover:text-amber-400 transition">Wagons East</a>
+        <a href="./personal-favorites/index.html" class="text-slate-300 hover:text-amber-400 transition">Performers</a>
+        <a href="./about-the-author/index.html" class="text-slate-300 hover:text-amber-400 transition">About</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content" class="flex-grow max-w-5xl mx-auto px-6 py-10 w-full">
+    <aside class="mb-8 rounded-xl border border-amber-500/30 bg-amber-500/10 p-4 text-sm text-slate-200" aria-label="Objectivity disclaimer">
+      <strong class="text-amber-300">Objectivity notice:</strong> Verified facts are source-supported. Personal accounts and opinions are the author's first-person testimony and interpretation as a 42-year-old who describes having a rare hyperthymestic mind. <a href="./disclaimer/index.html" class="text-amber-300 underline">Read the full disclaimer.</a>
+    </aside>
+    <section class="rounded-2xl border border-slate-800 bg-slate-900 p-8">
+      <h1 class="text-3xl font-extrabold text-white">A personal archive of performance and animal-centered cinema</h1>
+      <p class="mt-4 text-lg text-slate-300">The archive currently contains <strong>15 performer records</strong> and <strong>1 ranked film record</strong>, backed by canonical structured data and automated integrity checks.</p>
+    </section>
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold">Absolute favorite film</h2>
+      <article class="mt-5 rounded-xl border border-amber-500/40 bg-slate-900 p-6">
+        <p class="text-sm font-semibold uppercase tracking-wide text-amber-400">Rank #1</p>
+        <h3 class="mt-2 text-2xl font-bold">The Adventures of Milo and Otis</h3>
+        <p class="mt-3 text-slate-300">My absolute favorite movie of all time is <em>The Adventures of Milo and Otis</em>. Its visual world is centered on animals rather than visible human characters. Although the U.S. version includes narration by Dudley Moore, I can mute the narration and still follow and enjoy the film without visual distraction.</p>
+        <p class="mt-3 text-slate-300">Retaining the environmental sounds while reducing the vocal narration creates an especially calm viewing experience to share with my cats.</p>
+        <a href="./favorite-films/index.html" class="mt-4 inline-block text-amber-400 underline">Read the complete film entry</a>
+      </article>
+    </section>
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold">Browse the archive</h2>
+      <div class="mt-5 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <a class="rounded-xl border border-slate-800 bg-slate-900 p-6 hover:border-amber-500" href="./favorite-films/index.html"><strong class="text-amber-400">Favorite films</strong><p class="mt-2 text-sm text-slate-400">Ranked viewing accounts and sourced production facts.</p></a>
+        <a class="rounded-xl border border-slate-800 bg-slate-900 p-6 hover:border-amber-500" href="./wagons-east/index.html"><strong class="text-amber-400">Wagons East</strong><p class="mt-2 text-sm text-slate-400">Cast-focused recollections and performance analysis.</p></a>
+        <a class="rounded-xl border border-slate-800 bg-slate-900 p-6 hover:border-amber-500" href="./personal-favorites/index.html"><strong class="text-amber-400">Personal favorites</strong><p class="mt-2 text-sm text-slate-400">Performers across comedy, drama, and genre film.</p></a>
+      </div>
+    </section>
+  </main>
+  <footer class="border-t border-slate-800 bg-slate-900/50 py-8 mt-12 text-center text-sm text-slate-400">
+    <p>My Favorite Actors, Actresses &amp; Films</p>
+    <p class="mt-2"><a class="text-amber-400 underline" href="./disclaimer/index.html">Objectivity &amp; Authorship Disclaimer</a></p>
+  </footer>
+</body>
+</html>
