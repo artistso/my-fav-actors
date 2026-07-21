@@ -1,78 +1,41 @@
 <!DOCTYPE html>
 <html lang="en" class="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About the Author — My Favorite Actors & Actresses</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        darkbg: '#0f172a',
-                        cardbg: '#1e293b',
-                        accent: '#f59e0b'
-                    }
-                }
-            }
-        }
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="First-person context for the author's recall framework.">
+  <title>About the Author - My Favorite Actors, Actresses &amp; Films</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={darkMode:'class',theme:{extend:{colors:{darkbg:'#0f172a',cardbg:'#1e293b',accent:'#f59e0b'}}}}</script>
 </head>
 <body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col font-sans selection:bg-amber-500 selection:text-slate-950">
-    <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-50">
-        <div class="max-w-5xl mx-auto px-6 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-            <div>
-                <a href="../index.html" class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
-                    🎬 <span class="bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent">My Favorite Actors & Actresses</span>
-                </a>
-                <p class="text-xs text-slate-400 mt-0.5">A Personal Archive by artistso (Hyperthymesia-Backed Recall)</p>
-            </div>
-            <nav class="flex items-center gap-4 text-sm font-medium">
-                <a href="../index.html" class="text-slate-300 hover:text-amber-400 transition">Home</a>
-                <a href="../wagons-east/index.html" class="text-slate-300 hover:text-amber-400 transition">Wagons East</a>
-                <a href="../personal-favorites/index.html" class="text-slate-300 hover:text-amber-400 transition">Favorites</a>
-                <a href="../about-the-author/index.html" class="text-slate-300 hover:text-amber-400 transition">About Author</a>
-            </nav>
-        </div>
-    </header>
-
-    <main class="flex-grow max-w-5xl mx-auto px-6 py-10 w-full">
-        <!-- Breadcrumbs -->
-        <nav class="text-sm mb-8 bg-slate-900/60 border border-slate-800 rounded-lg px-4 py-3 shadow-sm flex items-center">
-            <span class="text-slate-400 mr-2 font-medium">📍 Breadcrumbs:</span>
-            <a href="../index.html" class="text-amber-400 hover:underline">Home</a> <span class="text-zinc-500 mx-2">/</span> <span class="text-zinc-300">About the Author</span>
-        </nav>
-
-        <div class="space-y-8 max-w-3xl mx-auto">
-            <div>
-                <h1 class="text-3xl font-extrabold text-white tracking-tight mb-2">🧠 Hyperthymesia Recall Context</h1>
-                <p class="text-slate-400">Understanding the experiential recall framework behind this repository.</p>
-            </div>
-
-            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-8 space-y-6 shadow-xl">
-                <div class="border-b border-slate-800 pb-6">
-                    <h2 class="text-xl font-bold text-amber-400 mb-2">Total Sensory Fidelity</h2>
-                    <p class="text-slate-300 leading-relaxed">
-                        I have a very rare form of hyperthymesia—the rarest form. I am 42 years old and I remember from the age of three and up in full totality equivalent to that of a DVR. This means air pressure, time, particles, movies, TV, simple words being said—not just as one little increment but from a 360-degree surrounding in all directions, including the tingling at the bottom of my feet, my shoes touching the ground, and every physical sensation of my body in space.
-                    </p>
-                </div>
-
-                <div>
-                    <h2 class="text-xl font-bold text-amber-400 mb-2">Comprehensive Assessments</h2>
-                    <p class="text-slate-300 leading-relaxed">
-                        When I say I enjoy a performer, it is not a casual statement. It is backed by a complete, total, sensory-level recall of every moment I have ever spent watching them. Every performance. Every viewing. Every sensory detail of the experience. These are not just opinions; they are comprehensive experiential assessments from a lifetime of complete recall.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-    </main>
-
-    <footer class="border-t border-slate-800 bg-slate-900/40 py-8 mt-16 text-center text-xs text-slate-500">
-        <p>My Favorite Actors & Actresses • Serverless Archive hosted on GitHub Pages & Netlify</p>
-        <p class="mt-1">Backed by total 360-degree hyperthymesia sensory recall.</p>
-    </footer>
+  <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:m-3 focus:rounded-lg focus:bg-amber-400 focus:px-4 focus:py-2 focus:text-slate-950">Skip to content</a>
+  <header class="border-b border-slate-800 bg-slate-900/90 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+      <div><a href="../index.html" class="text-xl font-bold tracking-tight text-white">🎬 <span class="text-amber-400">My Favorite Actors, Actresses &amp; Films</span></a><p class="text-xs text-slate-400 mt-1">A classified archive of facts, personal accounts, and opinions</p></div>
+      <nav aria-label="Primary" class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm font-medium">
+        <a href="../index.html" class="text-slate-300 hover:text-amber-400 transition">Home</a>
+        <a href="../favorite-films/index.html" class="text-slate-300 hover:text-amber-400 transition">Films</a>
+        <a href="../wagons-east/index.html" class="text-slate-300 hover:text-amber-400 transition">Wagons East</a>
+        <a href="../personal-favorites/index.html" class="text-slate-300 hover:text-amber-400 transition">Performers</a>
+        <a href="../about-the-author/index.html" class="text-amber-400">About</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content" class="flex-grow max-w-5xl mx-auto px-6 py-10 w-full">
+    <aside class="mb-8 rounded-xl border border-amber-500/30 bg-amber-500/10 p-4 text-sm text-slate-200" aria-label="Objectivity disclaimer">
+      <strong class="text-amber-300">Objectivity notice:</strong> Verified facts are source-supported. Personal accounts and opinions are the author's first-person testimony and interpretation as a 42-year-old who describes having a rare hyperthymestic mind. <a href="../disclaimer/index.html" class="text-amber-300 underline">Read the full disclaimer.</a>
+    </aside>
+    <h1 class="text-3xl font-extrabold">About the author's recall framework</h1>
+    <section class="mt-8 rounded-xl border border-slate-800 bg-slate-900 p-7">
+      <h2 class="text-xl font-bold text-amber-400">Personal account</h2>
+      <p class="mt-3 text-slate-300">I am 42 years old and describe my mind as having a rare hyperthymestic form of autobiographical recall. My memories are often experienced as detailed, multisensory, and spatially organized from early childhood onward.</p>
+      <p class="mt-3 text-slate-300">This documents my lived experience. It is not presented as independent clinical proof or as a claim that memory is immune from error.</p>
+    </section>
+  </main>
+  <footer class="border-t border-slate-800 bg-slate-900/50 py-8 mt-12 text-center text-sm text-slate-400">
+    <p>My Favorite Actors, Actresses &amp; Films</p>
+    <p class="mt-2"><a class="text-amber-400 underline" href="../disclaimer/index.html">Objectivity &amp; Authorship Disclaimer</a></p>
+  </footer>
 </body>
 </html>
