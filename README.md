@@ -1,42 +1,45 @@
-# My Favorite Actors & Actresses
-A Personal Archive by artistso
+# My Favorite Actors, Actresses & Films
 
-## About This Repository
-This repository is a personal archive of my favorite performers - the actors and actresses whose work has meant the most to me throughout my life. Each entry contains:
-- My personal statement about why I enjoy them
-- The era and context in which I first discovered them
-- Their career history and biography
-- Their notable works
-- Links to further resources
+A personal archive by **artistso**.
 
-## About the Author
-I have a very rare form of hyperthymesia - the rarest form. I am 42 years old and I remember from the age of three and up in full totality equivalent to that of a DVR. This means air pressure, time, particles, movies, TV, simple words being said - not just as one little increment but from a 360-degree surrounding in all directions.
-These are not just opinions. They are comprehensive experiential assessments from a lifetime of complete recall.
+## Objectivity and authorship notice
 
-## Repository Sections
-| Folder | Description |
+This repository combines externally verifiable entertainment facts with the first-person recollections, interpretations, rankings, and opinions of a 42-year-old author who describes having a rare hyperthymestic mind.
+
+- **Verified fact**: externally checkable and source-supported.
+- **Personal account**: what the author remembers experiencing or being told.
+- **Opinion**: an aesthetic judgment, interpretation, ranking, or preference.
+
+Read the complete [Objectivity and Authorship Disclaimer](DISCLAIMER.md).
+
+## Absolute favorite film
+
+### The Adventures of Milo and Otis
+
+This is my absolute favorite movie of all time. I value its animal-centered visual storytelling: I can mute Dudley Moore's U.S.-version narration and still enjoy the story without visual distraction. When working from a personal-use copy I am legally permitted to edit, retaining the environmental sounds while reducing the vocal narration creates an especially calm experience to share with my cats.
+
+Read the full profile: [The Adventures of Milo and Otis](favorite-films/milo-and-otis.md).
+
+## Repository sections
+
+| Path | Description |
 | --- | --- |
-| `/wagons-east` | Cast profiles from one of my all-time favorite films |
-| `/back-to-the-future` | Michael J. Fox and Christopher Lloyd |
-| `/stand-up-comedy` | Stand-up comedians who influenced me |
-| `/personal-favorites` | Actors and actresses across all genres |
-| `/about-the-author` | More about me and this project |
+| `favorite-films/` | Ranked favorite films and viewing accounts |
+| `wagons-east/` | Cast profiles and personal retrospective statements |
+| `back-to-the-future/` | Michael J. Fox and Christopher Lloyd |
+| `personal-favorites/` | Performers across multiple genres |
+| `about-the-author/` | First-person context for the recall framework |
+| `data/` | Canonical structured records used for integrity checks |
+| `scripts/` | Automated validation tools |
 
-## Current Roster
-1. John C. McGinley (Wagons East, Scrubs, Platoon)
-2. John Candy (Wagons East, Uncle Buck, Planes Trains)
-3. Richard Lewis (Wagons East, Curb Your Enthusiasm)
-4. Robert Picardo (Wagons East, Star Trek Voyager)
-5. Ellen Greene (Wagons East, Little Shop of Horrors)
-6. Lochlyn Munro (Wagons East, Night at the Roxbury)
-7. Charles Rocket (Wagons East, Dumb and Dumber)
-8. Michael J. Fox (Back to the Future, Teen Wolf, Hard Way)
-9. Christopher Lloyd (Back to the Future, Taxi, Addams Family)
-10. Robin Williams (Aladdin, Good Will Hunting, Stand-Up)
-11. Hilary Swank (Million Dollar Baby, Next Karate Kid)
-12. Kristy Swanson (Buffy, Dude Where's My Car)
-13. Ashton Kutcher (That 70s Show, Dude Where's My Car)
-14. Seann William Scott (American Pie, Goon, The Rundown)
-15. Christopher Walken (Prophecy, Suicide Kings, Cowbell)
+## Current performer roster
 
-This repository is a living document and will be updated continuously as I add more performers and personal statements.
+The canonical roster is stored in [`data/people.json`](data/people.json). It currently contains **15 unique performer records**. [`data/films.json`](data/films.json) contains the ranked film records.
+
+## Validation
+
+```bash
+python scripts/validate_archive.py
+```
+
+CI fails if local links break, record identifiers collide, required profiles are missing, possible precise street addresses reappear, or the declared counts disagree with the canonical data.
